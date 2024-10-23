@@ -68,7 +68,7 @@
                             "buildTarget": "projeto-engenheiros-digitais:build:production"
                         },
                         "development": {
-                            "buildTarget": "projeto-engenheiros-digitais-ng:build:development"
+                            "buildTarget": "projeto-engenheiros-digitais:build:development"
                         }
                     },
                     "defaultConfiguration": "development"
@@ -98,6 +98,12 @@
                         ],
                         "scripts": []
                     }
+                },
+                "deploy": {
+                  "builder": "angular-cli-ghpages:deploy",
+                  "options": {
+                    "baseHref": "/Projeto_Engenheiros_Digitais"
+                  }
                 }
             }
         }
