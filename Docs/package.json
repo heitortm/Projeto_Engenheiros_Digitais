@@ -1,5 +1,5 @@
 {
-    "name": "apollo-ng",
+    "name": "projeto-engenheiros-digitais",
     "version": "17.0.0",
     "scripts": {
         "ng": "ng",
@@ -7,7 +7,8 @@
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
-        "lint": "ng lint"
+        "lint": "ng lint",
+        "deploy:ghdocs": "ng build --output-path docs --base-href /Projeto-Engenheiros-Digitais/"
     },
     "private": true,
     "dependencies": {
